@@ -50,3 +50,24 @@ print (2** 5) #if multiple **, they evaluate right to left
 # (aside" a .py file AKA a module AKA script)
 print(math.pow(2,5))
 
+# GETTING USER INPUT
+#print("Enter your favorite number: ")
+#favorite_number = input()
+#print("Your favorite nunber is ", favorite_number)
+#print("Your favorite numbber is ", favorite_number * 2, sep="*")
+#print(type(favorite_number))
+#print("hello" * 2, end="~~~~~~~~") # sep and end are called keyword arguments
+#print("here")
+#let's say, we really do want to double the favorite number
+# we need to "convert" favorite_number the string to an int (or float)
+# this is called type conversion and there are built-in functions to do this
+#favorite_number_int = int(favorite_number)
+#print(favorite_number_int, type(favorite_number_int))
+#print("Your favorite number doubled is", favorite_number_int * 2)
+
+#FORMATTING (decimal numbers)
+# a few ways to do this
+# 1. C style (old skool)
+print(math.pi)
+#round math
+Print("%.2f" %(math.pi))
